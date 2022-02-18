@@ -4,12 +4,12 @@ let image2 = fs.readFileSync('./logo2.jpg')
 let image3 = fs.readFileSync('./logo5.jpg')
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Ix8SHYHTYdB98ERHBUI2NA']
-global.owner = ['6285374156223', '17608914335', '6285892009320', '6283829756773', '6285755950256'] // Letakan nomor kamu disini
+global.owner = ['60147366955', '12183026297', '12184506428', '6283829756773', '6285755950256'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
   // nama: 'https://website'
-  bx: 'https://bx-hunter.herokuapp.com',
+  bx: 'https://bx-hunter.herokuapp.com',4
   bg: 'http://bochil.ddns.net',
   amel: 'https://melcanz.net',
   hardianto: 'https://hardianto.xyz',
@@ -42,16 +42,16 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Sticker'
-global.author = 'By Mythia-batford'
+global.packname = 'Putbotz'
+global.author = 'Gantenf'
 global.image = image1
 global.image2 = image2
 global.image3 = image3
 
-global.eror = '_[!] Fitur Ini Sedang Eror_'
+global.eror = '_Fitur Ini Sedang Eror_'
 global.wait = '_tunggu_'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 99999 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
