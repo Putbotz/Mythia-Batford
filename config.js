@@ -10,7 +10,6 @@ global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna pre
 global.APIs = { // API Prefix
   // nama: 'https://website'
   bx: 'https://bx-hunter.herokuapp.com',4
-  bg: 'http://bochil.ddns.net',
   amel: 'https://melcanz.net',
   hardianto: 'https://hardianto.xyz',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
