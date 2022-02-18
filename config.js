@@ -1,56 +1,63 @@
+// Thanks For Allah
+// AlyaaXzy
+// BOTCAHX
+
+
 let fs = require('fs')
-let image1 = fs.readFileSync('./logo4.jpg')
-let image2 = fs.readFileSync('./logo2.jpg')
-let image3 = fs.readFileSync('./logo5.jpg')
-global.DeveloperMode = 'false' //true Or false
-global.linkGC = ['https://chat.whatsapp.com/Ix8SHYHTYdB98ERHBUI2NA']
-global.owner = ['60147366955', '12183026297', '12184506428', '6283829756773', '6285755950256'] // Letakan nomor kamu disini
-global.mods = [] // Moderator?
-global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
+global.owner = ['60147366955', '12183026297','', '12184506428', '12184506428'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
-  bx: 'https://bx-hunter.herokuapp.com',4
-  amel: 'https://melcanz.net',
-  hardianto: 'https://hardianto.xyz',
+  hardianto: 'https://hardianto-chan.herokuapp.com',
+  rey: 'https://server-api-rey.herokuapp.com',
   jonaz: 'https://jonaz-api-v2.herokuapp.com',
   neoxr: 'https://neoxr-api.herokuapp.com',
-  Velgrynd: 'https://velgrynd.herokuapp.com',
   nrtm: 'https://nurutomo.herokuapp.com',
   pencarikode: 'https://pencarikode.xyz',
   xteam: 'https://api.xteam.xyz',
-  lol: 'https://api.lolhuman.xyz',
-  LeysCoder: 'https://leyscoders-api.herokuapp.com',
   zahir: 'https://zahirr-web.herokuapp.com',
   zekais: 'http://zekais-api.herokuapp.com',
-  zeks: 'https://api.zeks.xyz'
+  zeks: 'https://api.zeks.xyz',
+  vhtear: 'https://api.vhtear.com',
+  lolhum: 'https://api.lolhuman.xyz',
+  fxc7: 'https://fxc7-api.herokuapp.com',
+  bx: 'https://bx-hunter.herokuapp.com',
+
 }
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
-  'https://bx-hunter.herokuapp.com': 'Ikyy69',
-  'https://hardianto.xyz': 'hardianto',
+  'https://server-api-rey.herokuapp.com': 'apirey',
+  'https://hardianto-chan.herokuapp.com': 'hardianto',
   'https://neoxr-api.herokuapp.com': 'yntkts',
-  'https://rikka-api.herokuapp.com': 'beta',
-  'https://pencarikode.xyz': 'pais',
-  'https://melcanz.net': 'YOU_APIKEY',
-  'https://api.lolhuman.xyz': 'YOU_APIKEY',
-  'https://api.xteam.xyz': 'YOU_APIKEY',
-  'https://leyscoders-api.herokuapp.com': 'MIMINGANZ', 
+  'https://pencarikode.xyz': 'APIKEY',
+  'https://api.xteam.xyz': 'HIRO',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'ASJJMOFsjrVE8eZq1jgtGL4rGVE',
-  'https://velgrynd.herokuapp.com': '79lJ9HEA'
+  'https://api.zeks.xyz': 'nyyxz-bot',
+  'https://api.lolhuman.xyz': 'ed6c4f2c72b6f92f7d201464',
+  'https://api.vhtear.com': 'sayahafiz',
+  'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
+  'https://api.justaqul.xyz': '5kbUqdG00OXelFYx',
+  'http://zekais-api.herokuapp.com': 'grqgD6pU',
+  'https://bx-hunter.herokuapp.com': 'Ikyy69',
 }
 
 // Sticker WM
 global.packname = 'Putbotz'
-global.author = 'Gantenf'
-global.image = image1
-global.image2 = image2
-global.image3 = image3
+global.author = 'Ganteng'
 
-global.eror = '_Fitur Ini Sedang Eror_'
-global.wait = '_tunggu_'
+global.wait = 'Harap tunggu...'
+global.eror = 'Server ERROR!'
+global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
+global.watermark = '© 𝕻𝖚𝖙𝖇𝖔𝖙𝖟' //change the watermark 
+global.image = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg' //change the image
+global.thumbfoto = 'https://telegra.ph/file/0bdd84bd5a8099a789828.jpg'
 
-global.multiplier = 99999 // Semakin tinggi, semakin sulit naik level
+// image
+global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
+global.kandang = 'https://telegra.ph/file/67a6ee607d03a4e52757d.jpg'
+global.kolam = 'https://telegra.ph/file/5aa5dfa3394477e11fb18.jpg'
+global.thanks = 'https://telegra.ph/file/01917f7782b70de8f418d.jpg'
+
+global.multiplier = 9999999 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
