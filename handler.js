@@ -289,14 +289,14 @@ module.exports = {
           if (!isNumber(settings.status)) settings.status = 0
         } else global.DATABASE.data.settings = {
           anon: true,
-          anticall: true,
+          anticall: false,
           antispam: true,
           antitroli: true,
           backup: false,
           backupDB: 0,
           groupOnly: false,
-          jadibot: false,
-          nsfw: true,
+          jadibot: true,
+          nsfw: false,
           status: 0,
        }
       } catch (e) {
