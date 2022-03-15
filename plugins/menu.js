@@ -68,7 +68,6 @@ ${'```%npmdesc```'}
   'game': 'G A M E',
   'xp': 'E X P & L I M I T',
   'anime': 'A N I M E',
-  'dewasa': 'H E N T A I',
   'sticker': 'S T I C K E R',
   'kerang': 'K E R A N G  A J A I B',
   'quotes': 'Q U O T E S',
@@ -337,11 +336,6 @@ Note: Jika ada Fitur yg Error Lapor ke Putbotz
                   "title": "Anime",
                   "description": "",
                   "rowId": `${_p}? anime`
-                
-                }, {
-                  "title": "Hentai",
-                  "description": "",
-                  "rowId": `${_p}? dewasa`
 
                 }, {
                   "title": "Stiker",
