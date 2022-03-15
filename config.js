@@ -4,7 +4,7 @@ let foto = fs.readFileSync('./logo2.jpg')
 let ness = fs.readFileSync('./logo5.jpg')
 global.DeveloperMode = 'false' //true Or false
 global.linkGC = ['https://chat.whatsapp.com/Ix8SHYHTYdB98ERHBUI2NA']
-global.owner = ['19592142111', '62895612153565', '6285892009320', '6283829756773', '6285755950256'] // Letakan nomor kamu disini
+global.owner = ['60147366955'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -43,7 +43,7 @@ global.APIKeys = { // APIKey nya disini
 
 // Sticker WM
 global.packname = 'Sticker'
-global.author = 'By Mythia-batford'
+global.author = 'By Putbotz'
 global.image = kontol
 global.image2 = foto
 global.image3 = ness
@@ -51,7 +51,7 @@ global.image3 = ness
 global.eror = '_[!] Fitur Ini Sedang Eror_'
 global.wait = '_tunggu_'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 999 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
