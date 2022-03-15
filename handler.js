@@ -603,9 +603,9 @@ ${(global.linkGC).map((v, i) => '*Group ' + (i + 1) + '*\n' + v).join`\n\n`}
   },
   async delete(m) {
     if (m.key.remoteJid == 'status@broadcast') return
-    if (m.key.fromMe) return
+    if (m.key.froMe) return
     let chat = global.DATABASE._data.chats[m.key.remoteJid]
-    if (chat.delete) return
+    if (chat.delet) return
     await this.reply(m.key.remoteJid, `
 Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
 
