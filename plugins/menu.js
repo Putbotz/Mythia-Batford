@@ -35,7 +35,7 @@ Level *%level (%exp / %maxexp)* [%xp4levelup]
 %totalexp XP secara Total
 
 ❏ *T I M E*
-- Tanggal: *%week, %date*
+- Tanggal: *%week %weton, %date*
 - Tanggal Islam: *%dateIslamic*
 - Waktu: *%time*
 
@@ -46,8 +46,6 @@ Level *%level (%exp / %maxexp)* [%xp4levelup]
 ❏ *TUKANG BANNED*
 - ${waofc}
 
-❏ *G I T H U B*
-https://github.com/Putbotz
 ❏ *I N S T A G R A M*
 https://instagram.com/whooputt
 
@@ -308,140 +306,127 @@ _${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik_
 
 ❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
 _${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
+
+Note: Jika ada Fitur yg Error Lapor ke Putbotz
 `.trim(),
-          "description": `\n*© Putbotz || 2022*`,
+          "description": `\n*© ${conn.getName(conn.user.jid)} || 2021*`,
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
             {
-                                "rows": [{
-                                         "title": "📊 ❯╾ Status ╼-",
-                                         "description": "Status Putbotz",
-                                         "rowId": ".botstat"
-                                    }, {
-                                         "title": "            🗒️ ❯╾ Info ╼-",
-                                         "description": "Menampilkan Info Bot",
-                                         "rowId": ".info"
-                                    }, {
-                                         "title": "                  🎐 ❯╾ Creator Putbotz ╼-",
-                                         "description": "Kontak Creator ku ^~^",
-                                         "rowId": ".creator"
-                                    }, {
-                                         "title": "                        📈 ❯╾ leaderboard ╼-",
-                                         "description": "melihat wibu yang suka ngespam bot",
-                                         "rowId": ".lb"
-                       }],
-                    "title": "✧───────────────[ Stats ]───────────────✧"
+              "rows": [
+                {
+                  "title": `Semua Perintah`,
+                  "description": "",
+                  "rowId": `${_p}? all`
                 }, {
-                  "rows": [{
-                  "title": "🧾› 𐐪-Menu 01-𐑂",
-                  "description": "All Commands",
-                  "rowId": ".? all"
+                  "title": "Epic Rpg",
+                  "description": "",
+                  "rowId": `${_p}? rpg`
                 }, {
-                  "title": "🎮› 𐐪-Menu 02-𐑂",
-                  "description": "Game",
-                  "rowId": ".? game"
+                  "title": "Game",
+                  "description": "",
+                  "rowId": `${_p}? game`
+
                 }, {
-                  "title": "✨› 𐐪-Menu 04-𐑂",
-                  "description": "Exp & limit",
-                  "rowId": ".? xp"
+                  "title": "XP",
+                  "description": "",
+                  "rowId": `${_p}? xp`
+                 
+                 }, {
+                  "title": "Anime",
+                  "description": "",
+                  "rowId": `${_p}? anime`
+                
                 }, {
-                  "title": "🧩› 𐐪-Menu 05-𐑂",
-                  "description": "Fun",
-                  "rowId": ".? fun"
+                  "title": "Hentai",
+                  "description": "",
+                  "rowId": `${_p}? dewasa`
+
                 }, {
-                  "title": "⛩️› 𐐪-Menu 08-𐑂",
-                  "description": "Anime",
-                  "rowId": ".? anime"
-                },  {
-                  "title": "🕋› 𐐪-Menu 10-𐑂",
-                  "description": "Islami",
-                  "rowId": ".? quran"
+                  "title": "Stiker",
+                  "description": "",
+                  "rowId": `${_p}? stiker`
                 }, {
-                  "title": "🚗› 𐐪-Menu 11-𐑂",
-                  "description": "rpg menu",
-                  "rowId": ".? rpg"
+                  "title": "Kerang Ajaib",
+                  "description": "",
+                  "rowId": `${_p}? kerangajaib`
                 }, {
-                  "title": "🎫› 𐐪-Menu-𐑂 13",
-                  "description": "Sticker",
-                  "rowId": ".? stiker"
+                  "title": "Quotes",
+                  "description": "",
+                  "rowId": `${_p}? quotes`
                 }, {
-                  "title": "🐚› 𐐪-Menu 14-𐑂",
-                  "description": "Kerang ajaib",
-                  "rowId": ".? kerangajaib"
+                  "title": "Admin",
+                  "description": "",
+                  "rowId": `${_p}? admin`
                 }, {
-                  "title": "📑› 𐐪-Menu 15-𐑂",
-                  "description": "Quotes",
-                  "rowId": ".? quotes"
+                  "title": "Grup",
+                  "description": "",
+                  "rowId": `${_p}? grup`
                 }, {
-                  "title": "👑› 𐐪-Menu 16-𐑂",
-                  "description": "Admin Group",
-                  "rowId": ".? admin"
+                  "title": "Premium",
+                  "description": "",
+                  "rowId": `${_p}? premium`
                 }, {
-                  "title": "👥› 𐐪-Menu 17-𐑂",
-                  "description": "Group Chat",
-                  "rowId": ".? grup"
+                  "title": "Internet",
+                  "description": "",
+                  "rowId": `${_p}? internet`
                 }, {
-                  "title": "🌟› 𐐪-Menu 18-𐑂",
-                  "description": "Premium Users",
-                  "rowId": ".? premium"
+                  "title": "Anonymous",
+                  "description": "",
+                  "rowId": `${_p}? anonymous`
                 }, {
-                  "title": "💻› 𐐪-Menu 19-𐑂",
-                  "description": "Internet",
-                  "rowId": ".? internet"
+                  "title": "Nulis & Logo",
+                  "description": "",
+                  "rowId": `${_p}? nulis`
                 }, {
-                  "title": "🎭› 𐐪-Menu 20-𐑂",
-                  "description": "Anonymous Chat",
-                  "rowId": ".? anonymous"
+                  "title": "Downloader",
+                  "description": "",
+                  "rowId": `${_p}? downloader`
                 }, {
-                  "title": "📥› 𐐪-Menu 22-𐑂",
-                  "description": "Downloader",
-                  "rowId": ".? downloader"
+                  "title": "Tools",
+                  "description": "",
+                  "rowId": `${_p}? tools`
                 }, {
-                  "title": "🧰› 𐐪-Menu 23-𐑂",
-                  "description": "Tools",
-                  "rowId": ".? tools"
+                  "title": "Fun",
+                  "description": "",
+                  "rowId": `${_p}? fun`
                 }, {
-                  "title": "📂› 𐐪-Menu 24-𐑂",
-                  "description": "Database",
-                  "rowId": ".? database"
+                  "title": "Database",
+                  "description": "",
+                  "rowId": `${_p}? database`
                 }, {
-                  "title": "🗳️› 𐐪-Menu 25-𐑂",
-                  "description": "Vote & Absen",
-                  "rowId": ".? vote"
+                  "title": "Vote & Absen",
+                  "description": "",
+                  "rowId": `${_p}? vote`
                 }, {
-                  "title": "🤖› 𐐪-Menu 27-𐑂",
-                  "description": "Jadibot",
-                  "rowId": ".? jadibot"
+                  "title": "Al-Qur\'an",
+                  "description": "",
+                  "rowId": `${_p}? quran`
                 }, {
-                  "title": "ℹ️› 𐐪-Menu 28-𐑂",
-                  "description": "Info",
-                  "rowId": ".? info"
+                  "title": "Pengubah Suara",
+                  "description": "",
+                  "rowId": `${_p}? audio`
                 }, {
-                  "title": "🧑‍💻› 𐐪-Menu 29-𐑂",
-                  "description": "Owner",
-                  "rowId": ".? owner"
+                  "title": "Jadi Bot",
+                  "description": "",
+                  "rowId": `${_p}? jadibot`
                 }, {
-                  "title": "⚠️› 𐐪-Menu 30-𐑂",
-                  "description": "Tutorial Buat Bot By Putbotz",
-                  "rowId": ".tutorial"
-                }],
-                                "title": "✧───────────────[ Menu ]───────────────✧"
-                                }, {
-                                "rows": [{
-                                "title": "                        🗳️ ❯╾ Donasi ╼-",
-                                "description": "Donasi kak, jangan enak pakenya doang",
-                                "rowId": ".donasi"
-                                }, {
-                                "title": "                  🔖 ❯╾ Sewa ╼-",
-                                "description": "Menampilkan List harga sewabot",
-                                "rowId": ".sewa"
-                                }, {
-                                "title": "            ℹ️ ❯╾ Rules Putbotz ╼-",
-                                "description": "Mau diban bang?",
-                                "rowId": ".rules"
-                                }],
-                                "title": "✧────────────────[ Info ]────────────────✧"
+                  "title": "Info",
+                  "description": "",
+                  "rowId": `${_p}? info`
+                }, {
+                  "title": "Tanpa Kategori",
+                  "description": "",
+                  "rowId": `${_p}? tanpakategori`
+                }, {
+                  "title": "Owner",
+                  "description": "",
+                  "rowId": `${_p}? owner`
+               }, {
+                  "title": "Source code",
+                  "description": "",
+                  "rowId": `${_p}? sc`
                 }
               ]
             }
