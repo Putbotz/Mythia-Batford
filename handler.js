@@ -259,7 +259,6 @@ module.exports = {
           if (!('sBye' in chat)) chat.sBye = ''
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
-          if (!('delete' in chat)) chat.delete = false
           if (!('antiLink' in chat)) chat.antiLink = false
           if (!'antiToxic' in chat) chat.antiToxic = false
         } else global.DATABASE._data.chats[m.chat] = {
@@ -270,7 +269,6 @@ module.exports = {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          delete: false,
           antiLink: false,
           antiToxic: false,
         }
@@ -601,21 +599,6 @@ ${(global.linkGC).map((v, i) => '*Group ' + (i + 1) + '*\n' + v).join`\n\n`}
         break
     }
   },
-  async delete(m) {
-    if (m.key.remoteJid == 'status@broadcast') return
-    if (m.key.froMe) return
-    let chat = global.DATABASE._data.chats[m.key.remoteJid]
-    if (chat.delet) return
-    await this.reply(m.key.remoteJid, `
-Terdeteksi @${m.participant.split`@`[0]} telah menghapus pesan
-
-Untuk mematikan fitur ini, ketik
-*.disable delete*
-`.trim(), m.message, {
-      contextInfo: {
-        mentionedJid: [m.participant]
-      }
-    })
     this.copyNForward(m.key.remoteJid, m.message).catch(e => console.log(e, m))
   },
   async onCall(json) {
