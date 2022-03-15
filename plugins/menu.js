@@ -46,15 +46,10 @@ Level *%level (%exp / %maxexp)* [%xp4levelup]
 ❏ *TUKANG BANNED*
 - ${waofc}
 
-❏ *P A R T N E R*
-- ${pat1}
-- ${pat2}
-- ${pat3}
-
 ❏ *G I T H U B*
-_%github_
+https://github.com/Putbotz
 ❏ *I N S T A G R A M*
-https://instagram.com/johannes28_
+https://instagram.com/whooputt
 
 %readmore`.trimStart(),
   header: '❏ *%category*',
@@ -260,7 +255,7 @@ const ftroli = {
     const jjam = Math.floor( Selisih % (1000 * 60 * 60 * 24) / (1000 * 60 * 60))
     const mmmenit = Math.floor( Selisih % (1000 * 60 * 60) / (1000 * 60))
     const ddetik = Math.floor( Selisih % (1000 * 60) / 1000)
-    const ultah = new Date('March 28, 2022 23:59:59')
+    const ultah = new Date('January 31, 2023 23:59:59')
     const sekarat = new Date().getTime() 
     const Kurang = ultah - sekarat
     const ohari = Math.floor( Kurang / (1000 * 60 * 60 * 24));
@@ -313,10 +308,8 @@ _${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik_
 
 ❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
 _${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
-
-Note: Jika ada Fitur yg Error Lapor ke owner
 `.trim(),
-          "description": `\n*© ${conn.getName(conn.user.jid)} || 2021*`,
+          "description": `\n*© Putbotz || 2022*`,
           "buttonText": "Klik Disini",
           "listType": "SINGLE_SELECT",
           "sections": [
