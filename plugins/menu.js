@@ -35,7 +35,7 @@ Level *%level (%exp / %maxexp)* [%xp4levelup]
 %totalexp XP secara Total
 
 ❏ *T I M E*
-- Tanggal: *%week %weton, %date*
+- Tanggal: *%week, %date*
 - Tanggal Islam: *%dateIslamic*
 - Waktu: *%time*
 
@@ -308,6 +308,7 @@ _${jhari} Hari ${jjam} Jam ${mmmenit} Menit ${ddetik} Detik_
 
 ❏ 𝙐𝙇𝘼𝙉𝙂 𝙏𝘼𝙃𝙐𝙉 𝙊𝙒𝙉𝙀𝙍
 _${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik_
+
 `.trim(),
           "description": `\n*© Putbotz || 2022*`,
           "buttonText": "Klik Disini",
